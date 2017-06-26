@@ -2,9 +2,10 @@
 
 In this notebook, we investigate different diverngence loss metrics in a simple optimization problem.
 
-## Key Learnings
-
-1. P || Q and Q || P looked quite similar qualitatively when the inter-modal separation in the posterior is small. 
+## Key Learning
+1. The result depends on the form of $P(x)$. 
+    
+    P || Q and Q || P looked quite similar qualitatively when the inter-modal separation in the posterior is small. 
     
     ![small_inter-modal_separation](./Comparing%20KL%20P%20Q%20vs%20KL%20Q%20P%20with%20small%20separation.png)
     
@@ -12,7 +13,7 @@ In this notebook, we investigate different diverngence loss metrics in a simple 
     
     ![large inter-modal separation](./Comparing%20KL%20P%20Q%20vs%20KL%20Q%20P%20with%20large%20separation.png)
     
-2. This result above is quite intuitive given the behavior of these two forms of divergence loss. 
+2. This result above is makes sense:
 
     - In the case of $\mathrm{KL}(P \Vert Q)$, the reason why the gaussian tries to spread over the entire $P$ distribution is because the loss will be big anywhere $P(x_i) > 0$ if $Q(x_i)$ is small.
 
