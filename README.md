@@ -4,7 +4,7 @@
 **For the full analysis, refer to the notebook here:** 
 > [./Investigating KL Divergence as A Loss Metric](./Investigating%20KL%20Divergence%20as%20a%20loss%20metric.ipynb)
 
-In this notebook, we investigate different diverngence loss metrics in a simple optimization problem.
+In this notebook, we investigate different divergence loss metrics in a simple optimization problem.
 
 ## Key Learning
 1. The result depends on the form of $P(x)$. 
