@@ -22,4 +22,4 @@ In this notebook, we investigate different diverngence loss metrics in a simple 
 This analysis gave some surprising results at the beginning that turned out quite informative : )
      
 ### Reference:
-- Bishop, *Pattern Recorgnition and Machine Learning, Chapter 10*.
+- Bishop, *Pattern Recognition and Machine Learning, Chapter 10*.
